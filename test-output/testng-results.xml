@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48217" started-at="2019-09-06T06:48:20Z" finished-at="2019-09-06T06:49:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48217" started-at="2019-09-06T06:48:20Z" finished-at="2019-09-06T06:49:08Z">
+      <class name="SmokeTests.AddtoCartTest">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.AddtoCartTest@e078b3f5]" name="TC1" duration-ms="47110" started-at="2019-09-06T06:48:20Z" finished-at="2019-09-06T06:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- SmokeTests.AddtoCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
