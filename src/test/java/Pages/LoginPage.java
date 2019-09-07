@@ -54,7 +54,7 @@ public class LoginPage {
 					   BrowserSetup.cleanUp();
 				   }
 		   }catch (Exception e) {
-				log.error("Login() - > Unable to login : " + e.getMessage());
+				//log.error("Login() - > Unable to login : " + e.getMessage());
 		   }
 	   }
 	}

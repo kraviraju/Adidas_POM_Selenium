@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48217" started-at="2019-09-06T06:48:20Z" finished-at="2019-09-06T06:49:08Z">
+  <suite name="Suite" duration-ms="139447" started-at="2019-09-07T11:10:57Z" finished-at="2019-09-07T11:13:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="48217" started-at="2019-09-06T06:48:20Z" finished-at="2019-09-06T06:49:08Z">
+    <test name="Test" duration-ms="139447" started-at="2019-09-07T11:10:57Z" finished-at="2019-09-07T11:13:16Z">
+      <class name="SmokeTests.RemoveItemFromCartTest">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.RemoveItemFromCartTest@dc825177]" name="TC1" duration-ms="47321" started-at="2019-09-07T11:12:28Z" finished-at="2019-09-07T11:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- SmokeTests.RemoveItemFromCartTest -->
+      <class name="SmokeTests.ValidateCartTest">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.ValidateCartTest@ef8694d4]" name="TC1" duration-ms="34129" started-at="2019-09-07T11:11:53Z" finished-at="2019-09-07T11:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- SmokeTests.ValidateCartTest -->
       <class name="SmokeTests.AddtoCartTest">
-        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.AddtoCartTest@e078b3f5]" name="TC1" duration-ms="47110" started-at="2019-09-06T06:48:20Z" finished-at="2019-09-06T06:49:07Z">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.AddtoCartTest@bf967413]" name="TC1" duration-ms="54699" started-at="2019-09-07T11:10:57Z" finished-at="2019-09-07T11:11:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->

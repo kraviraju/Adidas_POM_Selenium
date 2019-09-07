@@ -12,6 +12,11 @@
           <include name="TC1"/>
         </methods>
       </class> <!-- SmokeTests.AddtoCartTest -->
+      <class name="SmokeTests.ValidateCartTest">
+        <methods>
+          <include name="TC1"/>
+        </methods>
+      </class> <!-- SmokeTests.ValidateCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

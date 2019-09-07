@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45334" started-at="2019-09-06T07:34:18Z" finished-at="2019-09-06T07:35:03Z">
+  <suite name="Suite" duration-ms="45363" started-at="2019-09-06T11:52:19Z" finished-at="2019-09-06T11:53:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="45334" started-at="2019-09-06T07:34:18Z" finished-at="2019-09-06T07:35:03Z">
+    <test name="Test" duration-ms="45363" started-at="2019-09-06T11:52:19Z" finished-at="2019-09-06T11:53:04Z">
       <class name="SmokeTests.AddtoCartTest">
-        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.AddtoCartTest@9706a97a]" name="TC1" duration-ms="44289" started-at="2019-09-06T13:04:18Z" finished-at="2019-09-06T13:05:02Z">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.AddtoCartTest@79ebf92c]" name="TC1" duration-ms="44313" started-at="2019-09-06T17:22:19Z" finished-at="2019-09-06T17:23:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->

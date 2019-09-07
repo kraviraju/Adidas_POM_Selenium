@@ -22,7 +22,7 @@ import Pages.AccountSummaryPage;
 import Pages.LoginPage;
 import Pages.SearchResultsPage;
 
-public class AddtoCartTest {
+public class RemoveItemFromCartTest {
 	
 	WebDriver driver;
 	
@@ -41,15 +41,13 @@ public class AddtoCartTest {
 		LoginPage LoginPage = new LoginPage(driver);
 		LoginPage.Login();
 		
-	// ****************** Navigate to 	Men -> Basketball category ***************
+	
+		
+		
+	// ****************** Remove item from Cart*************************	
 		AccountSummaryPage AccountSummaryPage = new AccountSummaryPage(driver);
-		String searchText = "Basketball";
-		AccountSummaryPage.NavigatetoMenFootwear(searchText);
-		
-		
-	// ****************** Add to cart from Search results** ***********************	
 		SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
-		System.out.println("Search Results Found : "+ searchResultsPage.AddtoCard());
+		searchResultsPage.RemoveItem();
 		
 		
 		
