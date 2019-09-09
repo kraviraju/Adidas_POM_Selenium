@@ -1,81 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="45.347" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="42.117" tests="1" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.vendor" value="Eclipse OpenJ9"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\se-service.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\jce.jar"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.runtime.version" value="1.8.0_202-b08"/>
-    <property name="user.name" value="ravi.kuchharlapati"/>
-    <property name="java.compiler" value="j9jit29"/>
-    <property name="os.encoding" value="UTF8"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="com.ibm.util.extralibs.properties" value=""/>
-    <property name="com.ibm.jcl.checkClassPath" value=""/>
-    <property name="user.language" value="en"/>
-    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
-    <property name="classworlds.conf" value="C:\ApacheMaven_3.5.2\bin\..\bin\m2.conf"/>
-    <property name="jdk.extensions.version" value="8.0.202.1"/>
-    <property name="java.version" value="1.8.0_202"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="com.ibm.system.agent.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="com.ibm.zero.version" value="2"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\endorsed"/>
-    <property name="com.ibm.oti.vm.library.version" value="29"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="maven.conf" value="C:\ApacheMaven_3.5.2\bin\../conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="user.country" value="US"/>
-    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre"/>
-    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190205_265 (JIT enabled, AOT enabled)&#10;OpenJ9   - 90dd8cb40&#10;OMR      - d2f4534b&#10;JCL      - d002501a90 based on jdk8u202-b08"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.awt.fonts" value=""/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="openj9-0.12.1"/>
-    <property name="user.variant" value=""/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="ibm.signalhandling.sigint" value="true"/>
-    <property name="user.home" value="C:\Users\ravi.kuchharlapati"/>
-    <property name="com.ibm.cpu.endian" value="little"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="ibm.signalhandling.sigchain" value="true"/>
-    <property name="library.jansi.path" value="C:\ApacheMaven_3.5.2\bin\..\lib\jansi-native"/>
-    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin;C:\windows\system32;C:\windows;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08/bin;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08/bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.202.08\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ravi.kuchharlapati\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ravi.kuchharlapati\AppData\Local\Programs\Python\Python37-32\;C:\Users\ravi.kuchharlapati\AppData\Local\Microsoft\WindowsApps;C:\ApacheMaven_3.5.2\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Gradle\gradle-5.5\bin;C:\Users\ravi.kuchharlapati\AppData\Roaming\npm;C:\Gradle\gradle-5.5\bin;C:\Users\ravi.kuchharlapati\AppData\Local\Programs\Python\Python37-32\Lib\site-packages;;."/>
-    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
-    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
-    <property name="java.fullversion" value="1.8.0_202-b08&#10;JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190205_265 (JIT enabled, AOT enabled)&#10;OpenJ9   - 90dd8cb40&#10;OMR      - d2f4534b&#10;JCL      - d002501a90 based on jdk8u202-b08"/>
-    <property name="maven.home" value="C:\ApacheMaven_3.5.2\bin\.."/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.class.path" value="C:\ApacheMaven_3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="java.io.tmpdir" value="C:\Users\ravi.kuchharlapati\AppData\Local\Temp\"/>
+    <property name="java.vm.version" value="11.0.1+13"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\RaviJAVAProjects\Adidas_POM_Selenium"/>
-    <property name="ibm.system.encoding" value="Cp1252"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="ibm.signalhandling.rs" value="false"/>
-    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\ext"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\RaviJAVAProjects\Adidas_POM_Selenium"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.1+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ravi.kuchharlapati\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
-    <property name="com.ibm.oti.shared.enabled" value="false"/>
-    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="suiteXmlFile" value="ValidateCartTestNG.xml"/>
+    <property name="classworlds.conf" value="C:\ApacheMaven_3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.202.08\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ravi.kuchharlapati\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ravi.kuchharlapati\AppData\Local\Programs\Python\Python37-32\;C:\Users\ravi.kuchharlapati\AppData\Local\Microsoft\WindowsApps;C:\ApacheMaven_3.5.2\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Gradle\gradle-5.5\bin;C:\Users\ravi.kuchharlapati\AppData\Roaming\npm;C:\Gradle\gradle-5.5\bin;C:\Users\ravi.kuchharlapati\AppData\Local\Programs\Python\Python37-32\Lib\site-packages;;."/>
+    <property name="maven.conf" value="C:\ApacheMaven_3.5.2\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\ApacheMaven_3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ravi.kuchharlapati"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="com.ibm.oti.configuration" value="scar"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="ravi.kuchharlapati"/>
+    <property name="java.class.path" value="C:\ApacheMaven_3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=ValidateCartTestNG.xml"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\ApacheMaven_3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC1" classname="SmokeTests.AddtoCartTest" time="45.347"/>
+  <testcase name="TC1" classname="SmokeTests.ValidateCartTest" time="42.117">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;shoppingCartTableBody&quot;]/tr/td[1]/div[2]/p[4]/span[2]&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;  (Driver info: chromedriver=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;HYDPCM144977L&apos;, ip: &apos;10.69.148.55&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61051}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=/Logs/}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: f309e57849b3467bef2054c22cff1a61&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;shoppingCartTableBody&quot;]/tr/td[1]/div[2]/p[4]/span[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="shoppingCartTableBody"]/tr/td[1]/div[2]/p[4]/span[2]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'HYDPCM144977L', ip: '10.69.148.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61051}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=/Logs/}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f309e57849b3467bef2054c22cff1a61
+*** Element info: {Using=xpath, value=//*[@id="shoppingCartTableBody"]/tr/td[1]/div[2]/p[4]/span[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Pages.SearchResultsPage.ValidateCart(SearchResultsPage.java:70)
+	at SmokeTests.ValidateCartTest.TC1(ValidateCartTest.java:51)
+</failure>
+    <system-out>browserName supplied from TestNG :chrome
+Chrome Browser Path : C:\RaviJAVAProjects\Adidas_POM_Selenium\Drivers\Chromedriver76_0_3809_68.exe
+</system-out>
+    <system-err>Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 57784
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
 </testsuite>

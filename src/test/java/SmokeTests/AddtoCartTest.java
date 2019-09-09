@@ -1,5 +1,6 @@
 package SmokeTests;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
@@ -27,7 +28,7 @@ public class AddtoCartTest {
 	WebDriver driver;
 	
 	@Test
-    public void TC1() throws InterruptedException {
+    public void TC1() throws InterruptedException, IOException {
 		
 		
 		
@@ -49,7 +50,7 @@ public class AddtoCartTest {
 		
 	// ****************** Add to cart from Search results** ***********************	
 		SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
-		System.out.println("Search Results Found : "+ searchResultsPage.AddtoCard());
+		searchResultsPage.AddtoCard();
 		
 		
 		

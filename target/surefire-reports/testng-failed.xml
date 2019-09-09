@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]" parallel="methods">
+<suite name="Failed suite [Suite]" verbose="0">
   <parameter name="browserName" value="chrome"/>
   <listeners>
     <listener class-name="Framework.WebDriverListener"/>
   </listeners>
-  <test name="Test(failed)" parallel="methods">
+  <test name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="SmokeTests.AddtoCartTest">
+      <class name="SmokeTests.ValidateCartTest">
         <methods>
           <include name="TC1"/>
         </methods>
-      </class> <!-- SmokeTests.AddtoCartTest -->
+      </class> <!-- SmokeTests.ValidateCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

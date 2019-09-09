@@ -1,9 +1,13 @@
+C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\ExcelOperations.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\BrowserSetup.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\LocalDriverFactory.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\LocalDriverManager.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\Browser.java
+C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Pages\SearchResultsPage.java
+C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\SmokeTests\ValidateCartTest.java
+C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\SmokeTests\RemoveItemFromCartTest.java
+C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\PageObject.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\WebDriverListener.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Pages\LoginPage.java
-C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Framework\PageObject.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\SmokeTests\AddtoCartTest.java
 C:\RaviJAVAProjects\Adidas_POM_Selenium\src\test\java\Pages\AccountSummaryPage.java

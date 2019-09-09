@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="139447" started-at="2019-09-07T11:10:57Z" finished-at="2019-09-07T11:13:16Z">
+  <suite name="Suite" duration-ms="50315" started-at="2019-09-09T06:25:26Z" finished-at="2019-09-09T06:26:17Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="139447" started-at="2019-09-07T11:10:57Z" finished-at="2019-09-07T11:13:16Z">
-      <class name="SmokeTests.RemoveItemFromCartTest">
-        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.RemoveItemFromCartTest@dc825177]" name="TC1" duration-ms="47321" started-at="2019-09-07T11:12:28Z" finished-at="2019-09-07T11:13:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1 -->
-      </class> <!-- SmokeTests.RemoveItemFromCartTest -->
+    <test name="Test" duration-ms="50315" started-at="2019-09-09T06:25:26Z" finished-at="2019-09-09T06:26:17Z">
       <class name="SmokeTests.ValidateCartTest">
-        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.ValidateCartTest@ef8694d4]" name="TC1" duration-ms="34129" started-at="2019-09-07T11:11:53Z" finished-at="2019-09-07T11:12:27Z">
+        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.ValidateCartTest@9f3f924c]" name="TC1" duration-ms="49251" started-at="2019-09-09T06:25:27Z" finished-at="2019-09-09T06:26:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->
       </class> <!-- SmokeTests.ValidateCartTest -->
-      <class name="SmokeTests.AddtoCartTest">
-        <test-method status="PASS" signature="TC1()[pri:0, instance:SmokeTests.AddtoCartTest@bf967413]" name="TC1" duration-ms="54699" started-at="2019-09-07T11:10:57Z" finished-at="2019-09-07T11:11:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1 -->
-      </class> <!-- SmokeTests.AddtoCartTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

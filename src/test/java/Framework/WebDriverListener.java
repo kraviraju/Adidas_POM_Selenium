@@ -1,5 +1,7 @@
 package Framework;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
@@ -11,7 +13,21 @@ public class WebDriverListener implements IInvokedMethodListener {
         if (method.isTestMethod()) {
             String browserName = method.getTestMethod().getXmlTest().getLocalParameters().get("browserName");
             System.out.println("browserName supplied from TestNG :"+ browserName);
-            WebDriver driver = LocalDriverFactory.createBrowserInstance(browserName);
+            
+            
+            WebDriver driver = null;
+			try {
+				driver = LocalDriverFactory.createBrowserInstance(browserName);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+            
+            
+            
             LocalDriverManager.setWebDriver(driver);
         }
     }

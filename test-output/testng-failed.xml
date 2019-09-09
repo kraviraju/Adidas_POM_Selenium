@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Framework.WebDriverListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)" parallel="methods">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="SmokeTests.AddtoCartTest">
-        <methods>
-          <include name="TC1"/>
-        </methods>
-      </class> <!-- SmokeTests.AddtoCartTest -->
       <class name="SmokeTests.ValidateCartTest">
         <methods>
           <include name="TC1"/>

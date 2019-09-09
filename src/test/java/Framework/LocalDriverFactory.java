@@ -1,5 +1,6 @@
 package Framework;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
@@ -15,7 +16,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class LocalDriverFactory {
 
-	static WebDriver createBrowserInstance(String browserName) {
+	static WebDriver createBrowserInstance(String browserName) throws IOException, InterruptedException {
         WebDriver driver = null;
         if (browserName.toLowerCase().contains("firefox")) {
             driver = new FirefoxDriver();
@@ -26,8 +27,12 @@ public class LocalDriverFactory {
             return driver;
         }
         if (browserName.toLowerCase().contains("chrome")) {
-        	String chromebrowser = "C:\\\\RaviJAVAProjects\\\\DRIVERCollection\\\\Chromedriver76_0_3809_68.exe";
-        	System.out.println("Chrome Browser : "+ chromebrowser);
+        	
+        	String cName ="Chromedriver76_0_3809_68.exe";
+        	Runtime.getRuntime().exec("taskkill /F /IM "+cName+" /T");
+        	String chromebrowser =  System.getProperty("user.dir") + "\\Drivers\\"+cName;
+        	System.out.println("Chrome Browser Path : "+ chromebrowser);
+        	Thread.sleep(2500);
         	System.setProperty("webdriver.chrome.driver", chromebrowser);
 			ChromeOptions cOptions = new ChromeOptions();
 		    cOptions.addArguments("test-type");

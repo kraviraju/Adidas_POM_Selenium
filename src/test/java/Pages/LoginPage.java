@@ -46,7 +46,7 @@ public class LoginPage {
 				   TxtBx_userName.sendKeys("hotcoolden@gmail.com");
 				   TxtBx_password.sendKeys("Tanuja1975Tanuja");
 				   Btn_Login.click();
-				   Thread.sleep(4500);
+				   Thread.sleep(2500);
 				   if (AccountSummaryPage.isPageOpened()==true) {
 					   System.out.println("Login : Success !");
 				   }else {

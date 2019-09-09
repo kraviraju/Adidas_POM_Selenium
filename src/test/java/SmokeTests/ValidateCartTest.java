@@ -1,5 +1,6 @@
 package SmokeTests;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
@@ -27,7 +28,7 @@ public class ValidateCartTest {
 	WebDriver driver;
 	
 	@Test
-    public void TC1() throws InterruptedException {
+    public void TC1() throws InterruptedException, IOException {
 		
 		
 		
